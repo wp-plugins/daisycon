@@ -1,4 +1,4 @@
-=== Daisycon ===
+=== Daisycon prijsvergelijkers ===
 Contributors: Daisycon
 Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
