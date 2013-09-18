@@ -14,8 +14,6 @@ Promoot adverteerders van Daisycon eenvoudig en goed met de verschillende profes
 
 == Description ==
 
-**Daisycon prijsvergelijkers**
-
 Daisycon biedt haar publishers gratis verschillende professionele prijsvergelijkers. De vergelijkers zijn doormiddel van een shorttag eenvoudig op je website te plaatsen.
 
 Om de vergelijkers te gebruiken moet je wel aangemeld zijn als publisher bij Daisycon. [Meld je gratis en vrijblijvend aan!](http://www.daisycon.com/nl/publishers/ "Meld je gratis en vrijblijvend aan!")
