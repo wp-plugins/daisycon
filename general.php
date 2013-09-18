@@ -1,5 +1,5 @@
 <?php 
-/* Daisycon Telecomvergelijker
+/* Daisycon prijsvergelijkers
  * File: general.php
  * 
  * View for the shorttags to be displayed on the website
@@ -11,8 +11,8 @@ class generalSettings{
 	public function adminSettings(){
 		
 		$output = 	'<div style="width:900px;">
-					<h1>Daisycon telecom plugins</h1>
-					Daisycon biedt haar publishers twee gratis telecomplugins waarmee je doormiddel van een shorttag direct een telecomvergelijker op je WordPress plugin kunt plaatsen. Maak een keuze tussen de telecomvergelijker (die abonnementen inclusief toestel vergelijkt) of de Sim only-vergelijker.
+					<h1>Daisycon prijsvergelijkers</h1>
+					Daisycon biedt haar publishers twee gratis prijsvergelijkers waarmee je doormiddel van een shorttag direct een vergelijker op je WordPress-website kunt plaatsen. Maak een keuze tussen de telecomvergelijker (die abonnementen inclusief toestel vergelijkt) of de Sim only-vergelijker.
 					<br/><br/>
 					Om de plugins te gebruiken moet je aangemeld zijn als publisher bij Daisycon. <a href="http://www.daisycon.com/nl/publishers/" target="_blank">Klik hier om je gratis aan te melden.</a>
 					<br/><br/>
