@@ -4,13 +4,12 @@ Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
 Tested up to: 3.6.1
 Donate link: 
-Stable tag: 1.0
+Stable tag: 1.1
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
 
 Promoot adverteerders van Daisycon eenvoudig en goed met de verschillende professionele prijsvergelijkers voor WordPress-publishers.
-
 
 == Description ==
 

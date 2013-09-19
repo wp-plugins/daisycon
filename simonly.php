@@ -10,6 +10,16 @@ class generalSim{
 
 	public function adminSimonly(){
 		
+		global $wpdb;
+		
+		$cMediaid = $wpdb->get_row("SELECT * FROM ".$wpdb->prefix."daisycon_tools");
+		
+		if (count($cMediaid) == 0){
+			$mediaid = 'XXXXX';
+		}else{
+			$mediaid = $cMediaid->media_id;
+		}
+		
 		$output = 	'<div style="width:900px;">
 					<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/simonly_affiliate_tools.gif" alt="" title="" style="float:left;margin-right:20px;" />  <h1>Daisycon Sim only-vergelijker</h1>
 					Daisycon heeft exclusief voor haar publishers een gratis Sim only-vergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende sim only-abonnementen met elkaar te vergelijken.
@@ -21,7 +31,7 @@ class generalSim{
 					<br/><br/>
 						
 					<div onclick="select_all(this)" style="cursor:pointer;width:800px;text-align: center; border: 1px solid #cecece; background: #f3f3f3; color: #333333; padding: 5px; margin-bottom: 10px; border-radius: 5px;" >	
-						[daisycon_simonly mediaid="XXXXX" amount="10" subid=""]
+						[daisycon_simonly mediaid="'.$mediaid.'" amount="10" subid=""]
 					
 					</div>					
 					';
@@ -91,7 +101,7 @@ class generalSim{
 					
 					<div onclick="select_all(this)" style="cursor:pointer;width:800px;text-align: center; border: 1px solid #cecece; background: #f3f3f3; color: #333333; padding: 5px; margin-bottom: 10px; border-radius: 5px;">
 					
-						[daisycon_simonly mediaid="XXXXX" amount="10" subid="" provider="all" duration="all" programs="all" minsms="0" maxsms="2500" minmin="0" maxmin="2500" minint="0" maxint="6500" minab="0" maxab="100"]
+						[daisycon_simonly mediaid="'.$mediaid.'" amount="10" subid="" provider="all" duration="all" programs="all" minsms="0" maxsms="2500" minmin="0" maxmin="2500" minint="0" maxint="6500" minab="0" maxab="100"]
 					
 					</div>
 					

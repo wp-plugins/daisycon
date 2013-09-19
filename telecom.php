@@ -10,6 +10,16 @@ class generalCom{
 
 	public function adminTelecom(){
 		
+		global $wpdb;
+		
+		$cMediaid = $wpdb->get_row("SELECT * FROM ".$wpdb->prefix."daisycon_tools");
+		
+		if (count($cMediaid) == 0){
+			$mediaid = 'XXXXX';
+		}else{
+			$mediaid = $cMediaid->media_id;
+		}
+		
 		$output = 	'<div style="width:900px;">
 					<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/telecomver_publishtools_100x100.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon telecomvergelijker</h1>
 					Daisycon heeft exclusief voor haar publishers een gratis telecomvergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende telefoonabonnementen met elkaar te vergelijken.
@@ -21,7 +31,7 @@ class generalCom{
 					<br/><br/>
 						
 					<div onclick="select_all(this)" style="cursor:pointer;width:800px;text-align: center; border: 1px solid #cecece; background: #f3f3f3; color: #333333; padding: 5px; margin-bottom: 10px; border-radius: 5px;" >	
-						[daisycon_telecom mediaid="XXXXX" amount="10" subid=""]
+						[daisycon_telecom mediaid="'.$mediaid.'" amount="10" subid=""]
 					
 					</div>					
 					';
@@ -121,7 +131,7 @@ class generalCom{
 					
 					<div onclick="select_all(this)" style="cursor:pointer;width:800px;text-align: center; border: 1px solid #cecece; background: #f3f3f3; color: #333333; padding: 5px; margin-bottom: 10px; border-radius: 5px;">
 					
-						[daisycon_telecom mediaid="XXXXX" amount="10" subid="" provider="0" mobiles="all" duration="24" programs="all" minmob="0" maxmob="1000" minmin="100" maxmin="500" minint="200" maxint="5000" minab="0" maxab="100"]
+						[daisycon_telecom mediaid="'.$mediaid.'" amount="10" subid="" provider="0" mobiles="all" duration="24" programs="all" minmob="0" maxmob="1000" minmin="100" maxmin="500" minint="200" maxint="5000" minab="0" maxab="100"]
 					
 					</div>
 					
