@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Daisycon prijsvergelijkers
-Plugin URI: http://mobielvergelijker.affiliateprogramma.eu/
+Plugin URI: http://prijsvergelijkers.affiliateprogramma.eu/
 Description: Promoot adverteeders van Daisycon eenvoudig en goed met de verschillende professionele prijsvergelijkers voor WordPress-publishers. Met deze plugin kun je eenvoudig en snel een vergelijkingssite maken. De plugin bevat een Telecomvergelijker en Sim only-vergelijker en zal regelmatig worden aangevuld met nieuwe tools, dus houd de updates in de gaten!
 Author: Daisycon
-Version: 1.1
+Version: 1.2
 Author URI: http://www.daisycon.com
 */
 
