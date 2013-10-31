@@ -4,7 +4,7 @@ Plugin Name: Daisycon prijsvergelijkers
 Plugin URI: http://mobielvergelijker.affiliateprogramma.eu/
 Description: Promoot adverteeders van Daisycon eenvoudig en goed met de verschillende professionele prijsvergelijkers voor WordPress-publishers. Met deze plugin kun je eenvoudig en snel een vergelijkingssite maken. De plugin bevat een Telecomvergelijker en Sim only-vergelijker en zal regelmatig worden aangevuld met nieuwe tools, dus houd de updates in de gaten!
 Author: Daisycon
-Version: 1.1
+Version: 1.3
 Author URI: http://www.daisycon.com
 */
 
@@ -16,6 +16,7 @@ require_once('telecom.php');
 require_once('general.php');
 require_once('simonly.php');
 require_once('zorg.php');
+require_once('wintersport.php');
 require_once('database.php');
 
 $telecomPlugin = new generalCom;
@@ -30,6 +31,7 @@ function dmenu(){
 		add_submenu_page('daisycontools', 'Sim only', 'Sim only', 'manage_options', 'simonly', array('generalSim', 'adminSimonly'));
 		add_submenu_page('daisycontools', 'Telecom',  'Telecom', 'manage_options', 'telecom', array('generalCom', 'adminTelecom'));
 		add_submenu_page('daisycontools', 'Zorgverzekeringen',  'Zorgverzekeringen', 'manage_options', 'zorg', array('generalZorg', 'adminZorg'));
+		add_submenu_page('daisycontools', 'Wintersport',  'Wintersport', 'manage_options', 'wintersport', array('generalWinter', 'adminWintersport'));
 }
 
 add_action('admin_menu', 'dmenu');
@@ -47,4 +49,6 @@ add_action('admin_menu', 'dmenu');
 add_shortcode('daisycon_telecom', array('generalCom', 'telecomAdv')); 
 add_shortcode('daisycon_telecomadv', array('generalCom', 'telecomAdv'));
 add_shortcode('daisycon_simonly', array('generalSim', 'simonlyAdv')); 
+add_shortcode('daisycon_zorg', array('generalZorg', 'zorgAdv'));
+add_shortcode('daisycon_winter', array('generalWinter', 'winterAdv'));  
 ?>
