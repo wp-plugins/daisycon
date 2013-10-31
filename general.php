@@ -62,7 +62,7 @@ class generalSettings{
 		
 		$output = 	'<div style="width:900px;">
 					<h1>Daisycon prijsvergelijkers</h1>
-					Daisycon biedt haar publishers drie gratis prijsvergelijkers waarmee je doormiddel van een shorttag direct een vergelijker op je WordPress-website kunt plaatsen. Maak een keuze tussen de telecomvergelijker (die abonnementen inclusief toestel vergelijkt), de Sim only-vergelijker of de Zorgverzekeringvergelijker.
+					Daisycon biedt haar publishers vier gratis prijsvergelijkers waarmee je doormiddel van een shorttag direct een vergelijker op je WordPress-website kunt plaatsen. Maak een keuze tussen de telecomvergelijker (die abonnementen inclusief toestel vergelijkt), de Sim only-vergelijker, de Zorgverzekeringvergelijker of de Wintersportvergelijker.
 					<br/><br/>
 					Om de plugins te gebruiken moet je aangemeld zijn als publisher bij Daisycon. <a href="http://www.daisycon.com/nl/publishers/" target="_blank">Klik hier om je gratis aan te melden.</a>
 					<br/><br/>
@@ -71,6 +71,8 @@ class generalSettings{
 					<a href="http://prijsvergelijkers.affiliateprogramma.eu/sim-only-vergelijker/" target="_blank">Bekijk hier een voorbeeld van de Sim only-vergelijker.</a>
 					<br/><br/>
 					<a href="http://prijsvergelijkers.affiliateprogramma.eu/zorgverzekeringvergelijker/" target="_blank">Bekijk hier een voorbeeld van de Zorgverzekeringvergelijker.</a>
+					<br/><br/>
+					<a href="http://prijsvergelijkers.affiliateprogramma.eu/wintersportvergelijker/" target="_blank">Bekijk hier een voorbeeld van de Wintersportvergelijker.</a>
 					<br/><br/>
 					<h2>Andere plugins van Daisycon</h2>
 					<a href="http://wordpress.org/extend/plugins/affiliate-marketing-xml-product-feed-importer-for-daisycon/" target="_blank">Download hier de Daisycon plugin</a> waarmee je alle productfeeds van Daisycon kan gebruiken. 

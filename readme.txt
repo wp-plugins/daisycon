@@ -4,7 +4,7 @@ Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
 Tested up to: 3.7
 Donate link: 
-Stable tag: 1.2
+Stable tag: 1.3
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -37,6 +37,12 @@ De Daisycon Sim only-vergelijker stelt de bezoekers van jouw website in staat ve
 De Daisycon Zorgverzekeringvergelijker stelt de bezoekers van jouw website in staat verschillende zorgverzekeraars met elkaar te vergelijken.
 
 [Bekijk hier een voorbeeld van de Zorgverzekeringvergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/zorgverzekeringvergelijker/ "zorgverzekeringvergelijker")
+
+**Wintersportvergelijker**
+
+De Daisycon Wintersportvergelijker stelt de bezoekers van jouw website in staat verschillende wintersportvakanties met elkaar te vergelijken.
+
+[Bekijk hier een voorbeeld van de Wintersportvergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/wintersportvergelijker/ "wintersportvergelijker")
 
 
 
@@ -93,6 +99,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Changelog ==
 
+= 1.3 =
+* Wintersportvergelijker toegevoegd
+
 = 1.2 = 
 * Zorgverzekeringvergelijker toegevoegd
 
@@ -104,8 +113,11 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Upgrade Notice ==
 
+= 1.3 =
+Wintersportvergelijker toegevoegd
+
 = 1.2 = 
-Zorgverzekering vergelijker toegevoegd
+Zorgverzekeringvergelijker toegevoegd
 
 = 1.0 = 
 Stabiele release
