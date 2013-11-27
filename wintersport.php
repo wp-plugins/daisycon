@@ -39,7 +39,7 @@ class generalWinter{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<h1>Daisycon wintersportvergelijker</h1>
+						<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/Wintersportvergelijker_paxz.gif" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon wintersportvergelijker</h1>
 						Daisycon heeft exclusief voor haar publishers een gratis wintersportvergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende wintersportvakanties met elkaar te vergelijken.
 						<br/><br/>
 						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://prijsvergelijkers.affiliateprogramma.eu/wintersportvergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -55,7 +55,7 @@ class generalWinter{
 						<p>&nbsp;</p>
 					
 						<h1>Geavanceerd gebruik</h1>
-						Geavenceerd zal nog worden aangevuld. Gebruik de <a href="http://www.daisycon.com/nl/tools/wintersportvergelijker/" target="_blank">generator</a> als je meer opties wil hebben.';
+						Geavanceerd zal nog worden aangevuld. Gebruik de <a href="http://www.daisycon.com/nl/tools/wintersportvergelijker/" target="_blank">generator</a> als je meer opties wil hebben.';
 						
 //		$output .= '
 //								
