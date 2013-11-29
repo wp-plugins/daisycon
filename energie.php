@@ -194,7 +194,7 @@ class generalEnergy{
 						
 			// Add comparator
 			$result = '<script type="text/javascript">
-							daisyconEnergyMediaID=22848;
+							daisyconEnergyMediaID='.$array['mediaid'].';
 							daisyconEnergySubID="";
 							daisyconEnergyActionPackets="all";
 							daisyconEnergyPackets="all";
