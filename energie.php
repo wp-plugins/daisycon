@@ -176,7 +176,7 @@ class generalEnergy{
 				$array['duurzaam'] = 'all';
 			}
 			
-			if( empty($array['sidebar']) ){
+			if( !isset($array['sidebar']) ){
 				$array['sidebar'] = 1;
 			}
 			
