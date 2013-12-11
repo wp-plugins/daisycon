@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Daisycon prijsvergelijkers
-Plugin URI: http://mobielvergelijker.affiliateprogramma.eu/
-Description: Promoot adverteeders van Daisycon eenvoudig en goed met de verschillende professionele prijsvergelijkers voor WordPress-publishers. Met deze plugin kun je eenvoudig en snel een vergelijkingssite maken. De plugin bevat een Telecomvergelijker en Sim only-vergelijker en zal regelmatig worden aangevuld met nieuwe tools, dus houd de updates in de gaten!
+Plugin URI: http://prijsvergelijkers.affiliateprogramma.eu/
+Description: Promoot adverteeders van Daisycon eenvoudig en goed met de verschillende professionele prijsvergelijkers voor WordPress-publishers. Met deze plugin kun je eenvoudig en snel een vergelijkingssite maken. De plugin bevat op dit moment zes vergelijkers en zal regelmatig worden aangevuld met nieuwe tools, dus houd de updates in de gaten!
 Author: Daisycon
-Version: 1.4.1
+Version: 1.5
 Author URI: http://www.daisycon.com
 */
 
 // Turn of all error reporting in the plugin
-error_reporting(0);
+//error_reporting(0);
 
 // Required files
 require_once('general.php');
@@ -62,4 +62,5 @@ add_shortcode('daisycon_simonly', array('generalSim', 'simonlyAdv'));
 add_shortcode('daisycon_zorg', array('generalZorg', 'zorgAdv'));
 add_shortcode('daisycon_winter', array('generalWinter', 'winterAdv'));  
 add_shortcode('daisycon_energie', array('generalEnergy', 'energyAdv')); 
+add_shortcode('daisycon_auto', array('generalAuto', 'autoAdv')); 
 ?>

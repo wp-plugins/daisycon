@@ -47,6 +47,16 @@ class generalEnergy{
 								});
 							}
 							
+							jQuery.ajax
+							({
+								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=energie&jsoncallback=?",
+								dataType: "jsonp",
+								cache: false,
+								success: function(html)
+								{
+								} 
+							});
+							
 							jQuery(document).ready(function() {
 								getAanbieders();
 							});	
@@ -195,7 +205,7 @@ class generalEnergy{
 			// Add comparator
 			$result = '<script type="text/javascript">
 							daisyconEnergyMediaID='.$array['mediaid'].';
-							daisyconEnergySubID="";
+							daisyconEnergySubID="'.$array['subid'].'";
 							daisyconEnergyActionPackets="all";
 							daisyconEnergyPackets="all";
 							daisyconEnergyCompanies="'.$array['programs'].'";

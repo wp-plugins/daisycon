@@ -35,6 +35,16 @@ class generalWinter{
 									textRange.select();
 								}
 							}
+							
+							jQuery.ajax
+							({
+								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=wintersport&jsoncallback=?",
+								dataType: "jsonp",
+								cache: false,
+								success: function(html)
+								{
+								} 
+							});
 					</script>
 		';
 		

@@ -2,9 +2,9 @@
 Contributors: Daisycon
 Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
-Tested up to: 3.7
+Tested up to: 3.7.1
 Donate link: 
-Stable tag: 1.4.1
+Stable tag: 1.5
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -49,6 +49,12 @@ De Daisycon Wintersportvergelijker stelt de bezoekers van jouw website in staat 
 De Daisycon Energievergelijker stelt de bezoekers van jouw website in staat verschillende aanbieders van energie met elkaar te vergelijken.
 
 [Bekijk hier een voorbeeld van de Energievergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/energievergelijker/ "energievergelijker")
+
+**Autoverzekeringvergelijker**
+
+De Daisycon Autoverzekeringvergelijker stelt de bezoekers van jouw website in staat verschillende aanbieders van autoverzekeringen met elkaar te vergelijken.
+
+[Bekijk hier een voorbeeld van de Autoverzekeringvergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/autoverzekeringvergelijker/ "autoverzekeringvergelijker")
 
 
 
@@ -105,6 +111,12 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Changelog ==
 
+= 1.5 =
+* Autoverzekeringvergelijker toegevoegd
+
+= 1.4 = 
+* Bugfix voor 1.4 met betrekking tot de Energievergelijker
+
 = 1.4 =
 * Energievergelijker toegevoegd
 
@@ -121,6 +133,15 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 * Stabiele release
 
 == Upgrade Notice ==
+
+= 1.5 =
+Autoverzekeringvergelijker toegevoegd
+
+= 1.4.1 = 
+Upgrade voor een bugfix binnen de Energievergelijker
+
+= 1.4 =
+Energievergelijker toegevoegd
 
 = 1.3 =
 Wintersportvergelijker toegevoegd
