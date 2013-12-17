@@ -188,31 +188,31 @@ class generalSim{
 				$array['minsms'] = 0;
 			}
 			
-			if( empty($array['maxsms']) ){
+			if( !isset($array['maxsms']) ){
 				$array['maxsms'] = 2500;
 			}
 			
-			if( empty($array['minmin']) ){
+			if( !isset($array['minmin']) ){
 				$array['minmin'] = 0;
 			}
 			
-			if( empty($array['maxmin']) ){
+			if( !isset($array['maxmin']) ){
 				$array['maxmin'] = 2500;
 			}
 			
-			if( empty($array['minint']) ){
+			if( !isset($array['minint']) ){
 				$array['minint'] = 0;
 			}
 			
-			if( empty($array['maxint']) ){
+			if( !isset($array['maxint']) ){
 				$array['maxint'] = 6500;
 			}
 			
-			if( empty($array['minab']) ){
+			if( !isset($array['minab']) ){
 				$array['minab'] = 0;
 			}
 			
-			if( empty($array['maxab']) ){
+			if( !isset($array['maxab']) ){
 				$array['maxab'] = 100;
 			}
 					

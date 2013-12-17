@@ -223,35 +223,35 @@ class generalCom{
 				$array['programs'] = 'all';
 			}
 			
-			if( empty($array['minmob']) ){
+			if( !isset($array['minmob']) ){
 				$array['minmob'] = 0;
 			}
 			
-			if( empty($array['maxmob']) ){
+			if( !isset($array['maxmob']) ){
 				$array['maxmob'] = 1000;
 			}
 			
-			if( empty($array['minmin']) ){
+			if( !isset($array['minmin']) ){
 				$array['minmin'] = 100;
 			}
 			
-			if( empty($array['maxmin']) ){
+			if( !isset($array['maxmin']) ){
 				$array['maxmin'] = 500;
 			}
 			
-			if( empty($array['minint']) ){
+			if( !isset($array['minint']) ){
 				$array['minint'] = 200;
 			}
 			
-			if( empty($array['maxint']) ){
+			if( !isset($array['maxint']) ){
 				$array['maxint'] = 5000;
 			}
 			
-			if( empty($array['minab']) ){
+			if( !isset($array['minab']) ){
 				$array['minab'] = 0;
 			}
 			
-			if( empty($array['maxab']) ){
+			if( !isset($array['maxab']) ){
 				$array['maxab'] = 100;
 			}
 			

@@ -2,9 +2,9 @@
 Contributors: Daisycon
 Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
-Tested up to: 3.7.1
+Tested up to: 3.8
 Donate link: 
-Stable tag: 1.5
+Stable tag: 1.5.1
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -111,6 +111,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Changelog ==
 
+= 1.5.1 = 
+* Bugfix voor waarde 0 invullen bij Telecomvergelijker, Sim Only-vergelijker en Energievergelijker
+
 = 1.5 =
 * Autoverzekeringvergelijker toegevoegd
 
@@ -133,6 +136,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 * Stabiele release
 
 == Upgrade Notice ==
+
+= 1.5.1 =
+Update als je waarde 0 in wilt vullen bij de Telecomvergelijker, Sim Only-vergelijker en Energievergelijker
 
 = 1.5 =
 Autoverzekeringvergelijker toegevoegd
