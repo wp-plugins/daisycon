@@ -61,14 +61,25 @@ class generalSettings{
 		$cMediaid = $wpdb->get_row("SELECT * FROM ".$wpdb->prefix."daisycon_tools");
 		
 		$output = 	'<div style="width:900px;">
-					<h1>Daisycon prijsvergelijkers</h1>
-					Daisycon biedt haar publishers twee gratis prijsvergelijkers waarmee je doormiddel van een shorttag direct een vergelijker op je WordPress-website kunt plaatsen. Maak een keuze tussen de telecomvergelijker (die abonnementen inclusief toestel vergelijkt) of de Sim only-vergelijker.
+					<img src="'.plugin_dir_url( __FILE__ ) . '/images/vergelijkers-affiliate-marketing.png" alt="" title="" style="margin-right:20px;" />
+					<br/>
+					Daisycon biedt haar publishers zes gratis prijsvergelijkers waarmee je doormiddel van een shorttag direct een vergelijker op je WordPress-website kunt plaatsen. Maak een keuze tussen de Telecomvergelijker (die abonnementen inclusief toestel vergelijkt), Sim only-vergelijker, Energievergelijker, Zorgverzekeringvergelijker, Autoverzekeringvergelijker, Vakantievergelijker of de Wintersportvergelijker.
 					<br/><br/>
 					Om de plugins te gebruiken moet je aangemeld zijn als publisher bij Daisycon. <a href="http://www.daisycon.com/nl/publishers/" target="_blank">Klik hier om je gratis aan te melden.</a>
 					<br/><br/>
-					<a href="http://mobielvergelijker.affiliateprogramma.eu/telecomvergelijker/" target="_blank">Bekijk hier een voorbeeld van de Telecomvergelijker.</a>
+					<a href="http://prijsvergelijkers.affiliateprogramma.eu/telecomvergelijker/" target="_blank">Bekijk hier een voorbeeld van de Telecomvergelijker.</a>
 					<br/><br/>
-					<a href="http://mobielvergelijker.affiliateprogramma.eu/sim-only-vergelijker/" target="_blank">Bekijk hier een voorbeeld van de Sim only-vergelijker.</a>
+					<a href="http://prijsvergelijkers.affiliateprogramma.eu/sim-only-vergelijker/" target="_blank">Bekijk hier een voorbeeld van de Sim only-vergelijker.</a>
+					<br/><br/>
+					<a href="http://prijsvergelijkers.affiliateprogramma.eu/zorgverzekeringvergelijker/" target="_blank">Bekijk hier een voorbeeld van de Zorgverzekeringvergelijker.</a>
+					<br/><br/>
+					<a href="http://prijsvergelijkers.affiliateprogramma.eu/wintersportvergelijker/" target="_blank">Bekijk hier een voorbeeld van de Wintersportvergelijker.</a>
+					<br/><br/>
+					<a href="http://prijsvergelijkers.affiliateprogramma.eu/energievergelijker/" target="_blank">Bekijk hier een voorbeeld van de Energievergelijker.</a>
+					<br/><br/>
+					<a href="http://prijsvergelijkers.affiliateprogramma.eu/autoverzekeringvergelijker/" target="_blank">Bekijk hier een voorbeeld van de Autoverzekeringvergelijker.</a>
+					<br/><br/>
+					<a href="http://prijsvergelijkers.affiliateprogramma.eu/vakantievergelijker/" target="_blank">Bekijk hier een voorbeeld van de Vakantievergelijker.</a>
 					<br/><br/>
 					<h2>Andere plugins van Daisycon</h2>
 					<a href="http://wordpress.org/extend/plugins/affiliate-marketing-xml-product-feed-importer-for-daisycon/" target="_blank">Download hier de Daisycon plugin</a> waarmee je alle productfeeds van Daisycon kan gebruiken. 
@@ -84,6 +95,18 @@ class generalSettings{
 					</form>
 					</div>			
 					';
+		
+		$output .=	'<script type="text/javascript">
+						jQuery.ajax
+						({
+							url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid=0&item=intro&jsoncallback=?",
+							dataType: "jsonp",
+							cache: false,
+							success: function(html)
+							{
+							} 
+						});
+					</script>';
 		
 		echo $output;
 	}
