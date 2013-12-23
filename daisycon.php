@@ -4,7 +4,7 @@ Plugin Name: Daisycon prijsvergelijkers
 Plugin URI: http://prijsvergelijkers.affiliateprogramma.eu/
 Description: Promoot adverteeders van Daisycon eenvoudig en goed met de verschillende professionele prijsvergelijkers voor WordPress-publishers. Met deze plugin kun je eenvoudig en snel een vergelijkingssite maken. De plugin bevat op dit moment zes vergelijkers en zal regelmatig worden aangevuld met nieuwe tools, dus houd de updates in de gaten!
 Author: Daisycon
-Version: 1.5.1
+Version: 1.6
 Author URI: http://www.daisycon.com
 */
 
@@ -22,6 +22,7 @@ require_once('simonly.php');
 require_once('zorg.php');
 require_once('energie.php');
 require_once('wintersport.php');
+require_once('zomer.php');
 
 // Activate files for tools
 $telecomPlugin = new generalCom;
@@ -30,6 +31,8 @@ $generalPlugin = new generalSettings;
 $zorgPlugin = new generalZorg;
 $energyPlugin = new generalEnergy;
 $autoPlugin = new generalAuto;
+$winterPlugin = new generalWinter;
+$summerPlugin = new generalSummer;
 
 // Create menu
 function dmenu(){
@@ -41,6 +44,7 @@ function dmenu(){
 		add_submenu_page('daisycontools', 'Energie',  'Energie', 'manage_options', 'energy', array('generalEnergy', 'adminEnergy'));
 		add_submenu_page('daisycontools', 'Auto',  'Auto', 'manage_options', 'auto', array('generalAuto', 'adminAuto'));
 		add_submenu_page('daisycontools', 'Wintersport',  'Wintersport', 'manage_options', 'wintersport', array('generalWinter', 'adminWintersport'));
+		add_submenu_page('daisycontools', 'Vakantie',  'Vakantie', 'manage_options', 'vakantie', array('generalSummer', 'adminSummer'));
 }
 
 // Add Daisycon menu to Wordpress admin interface
@@ -63,4 +67,5 @@ add_shortcode('daisycon_zorg', array('generalZorg', 'zorgAdv'));
 add_shortcode('daisycon_winter', array('generalWinter', 'winterAdv'));  
 add_shortcode('daisycon_energie', array('generalEnergy', 'energyAdv')); 
 add_shortcode('daisycon_auto', array('generalAuto', 'autoAdv')); 
+add_shortcode('daisycon_vakantie', array('generalSummer', 'summerAdv'));
 ?>

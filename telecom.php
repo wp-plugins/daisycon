@@ -21,7 +21,7 @@ class generalCom{
 		}
 		
 		$output = 	'<div style="width:900px;">
-					<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/telecomver_publishtools_100x100.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon telecomvergelijker</h1>
+					<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/telecomver_publishtools_100x100.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon Telecomvergelijker</h1>
 					Daisycon heeft exclusief voor haar publishers een gratis telecomvergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende telefoonabonnementen met elkaar te vergelijken.
 					<br/><br/>
 					Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://prijsvergelijkers.affiliateprogramma.eu/telecomvergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.

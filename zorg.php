@@ -50,7 +50,7 @@ class generalZorg{
 		';
 		
 		$output .= 	'<div style="width:900px;">
-			<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/Zorgverzekeringvergelijker2.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon zorgverzekeringvergelijker</h1>
+			<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/Zorgverzekeringvergelijker2.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon Zorgverzekeringvergelijker</h1>
 			Daisycon heeft exclusief voor haar publishers een gratis zorgverzekeringvergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende zorgverzekeraars met elkaar te vergelijken.
 			<br/><br/>
 			Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://prijsvergelijkers.affiliateprogramma.eu/zorgverzekeringvergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
