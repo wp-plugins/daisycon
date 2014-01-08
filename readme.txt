@@ -113,7 +113,18 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 == Screenshots ==
 
 1. Telecomvergelijker
+
 2. Sim only-vergelijker
+
+3. Energievergelijker
+
+4. Autoverzekeringvergelijker
+
+5. Zorgverzekeringvergelijker
+
+6. Wintersportvergelijker
+
+7. Vakantievergelijker
 
 == Changelog ==
 
@@ -126,7 +137,7 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 = 1.5 =
 * Autoverzekeringvergelijker toegevoegd
 
-= 1.4 = 
+= 1.4.1 = 
 * Bugfix voor 1.4 met betrekking tot de Energievergelijker
 
 = 1.4 =
