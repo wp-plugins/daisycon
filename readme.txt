@@ -4,7 +4,7 @@ Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
 Tested up to: 3.8
 Donate link: 
-Stable tag: 1.6
+Stable tag: 1.6.1
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -24,43 +24,43 @@ De plugin bevat de volgende prijsvergelijkers:
 
 De Daisycon telecomvergelijker stelt de bezoekers van jouw website in staat verschillende telefoonabonnementen met elkaar te vergelijken.
 
-[Bekijk hier voor een voorbeeld van de Telecomvergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/telecomvergelijker/ "Telecomvergelijker") 
+[Bekijk hier voor een voorbeeld van de Telecomvergelijker.](http://vergelijkers.daisycon.com/telecomvergelijker/ "Telecomvergelijker") 
 
 **Sim only-vergelijker**
 
 De Daisycon Sim only-vergelijker stelt de bezoekers van jouw website in staat verschillende sim only-abonnementen met elkaar te vergelijken.
 
-[Bekijk hier een voorbeeld van de Sim only-vergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/sim-only-vergelijker/ "Sim only-vergelijker")
+[Bekijk hier een voorbeeld van de Sim only-vergelijker.](http://vergelijkers.daisycon.com/sim-only-vergelijker/ "Sim only-vergelijker")
 
 **Zorgverzekeringvergelijker**
 
 De Daisycon Zorgverzekeringvergelijker stelt de bezoekers van jouw website in staat verschillende zorgverzekeraars met elkaar te vergelijken.
 
-[Bekijk hier een voorbeeld van de Zorgverzekeringvergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/zorgverzekeringvergelijker/ "zorgverzekeringvergelijker")
+[Bekijk hier een voorbeeld van de Zorgverzekeringvergelijker.](http://vergelijkers.daisycon.com/zorgverzekeringvergelijker/ "zorgverzekeringvergelijker")
 
 **Wintersportvergelijker**
 
-De Daisycon Wintersportvergelijker stelt de bezoekers van jouw website in staat verschillende wintersportvakanties met elkaar te vergelijken.
+De Daisycon Wintersporttool stelt de bezoekers van jouw website in staat verschillende wintersportvakanties met elkaar te vergelijken.
 
-[Bekijk hier een voorbeeld van de Wintersportvergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/wintersportvergelijker/ "wintersportvergelijker")
+[Bekijk hier een voorbeeld van de Wintersporttool.](http://vergelijkers.daisycon.com/wintersportvergelijker/ "wintersporttool")
 
-**Vakantievergelijker**
+**Vakantietool**
 
-De Daisycon Vakantievergelijker stelt de bezoekers van jouw website in staat verschillende vakanties met elkaar te vergelijken.
+De Daisycon Vakantietool stelt de bezoekers van jouw website in staat verschillende vakanties met elkaar te vergelijken.
 
-[Bekijk hier een voorbeeld van de Vakantievergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/vakantievergelijker/ "vakantievergelijker")
+[Bekijk hier een voorbeeld van de Vakantievergelijker.](http://vergelijkers.daisycon.com/vakantievergelijker/ "vakantietool")
 
 **Energievergelijker**
 
 De Daisycon Energievergelijker stelt de bezoekers van jouw website in staat verschillende aanbieders van energie met elkaar te vergelijken.
 
-[Bekijk hier een voorbeeld van de Energievergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/energievergelijker/ "energievergelijker")
+[Bekijk hier een voorbeeld van de Energievergelijker.](http://vergelijkers.daisycon.com/energievergelijker/ "energievergelijker")
 
 **Autoverzekeringvergelijker**
 
 De Daisycon Autoverzekeringvergelijker stelt de bezoekers van jouw website in staat verschillende aanbieders van autoverzekeringen met elkaar te vergelijken.
 
-[Bekijk hier een voorbeeld van de Autoverzekeringvergelijker.](http://prijsvergelijkers.affiliateprogramma.eu/autoverzekeringvergelijker/ "autoverzekeringvergelijker")
+[Bekijk hier een voorbeeld van de Autoverzekeringvergelijker.](http://vergelijkers.daisycon.com/autoverzekeringvergelijker/ "autoverzekeringvergelijker")
 
 
 
@@ -122,11 +122,14 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 5. Zorgverzekeringvergelijker
 
-6. Wintersportvergelijker
+6. Wintersporttool
 
-7. Vakantievergelijker
+7. Vakantietool
 
 == Changelog ==
+
+= 1.6.1 =
+* Bugfix en paar tekstuele wijzigingen
 
 = 1.6 =
 * Vakantievergelijker toegevoegd

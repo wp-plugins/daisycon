@@ -24,7 +24,7 @@ class generalSim{
 					<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/simonly_affiliate_tools.gif" alt="" title="" style="float:left;margin-right:20px;" />  <h1>Daisycon Sim only-vergelijker</h1>
 					Daisycon heeft exclusief voor haar publishers een gratis Sim only-vergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende sim only-abonnementen met elkaar te vergelijken.
 					<br/><br/>
-					Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://prijsvergelijkers.affiliateprogramma.eu/sim-only-vergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
+					Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/sim-only-vergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
 					<br/><br/>
 					<h1>Standaardgebruik</h1>
 					Vul je <a href="http://www.daisycon.com/nl/faq/publishers/affiliate_marketing/waar_vind_ik_mijn_media_id/" target="_blank" title="Waar vind ik mijn Media ID?">Media ID</a> op de plek van XXXXX in en vul indien gewenst een <a href="http://www.daisycon.com/nl/blog/hoe_gebruik_je_sub_ids/" target="_blank" title="Wat is een SubID?">SubID</a> in. Het SubID wordt automatisch gevuld met het de provider, het aantal belminuten, SMS-jes, MB&#39;s en de prijs van het abonnement. Daarachter is ruimte voor je eigen SubID (max 12 tekens). Bij amount vul je het aantal resultaten in: <strong>5, 10, 25 of 50</strong>

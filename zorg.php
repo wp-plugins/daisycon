@@ -53,7 +53,7 @@ class generalZorg{
 			<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/Zorgverzekeringvergelijker2.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon Zorgverzekeringvergelijker</h1>
 			Daisycon heeft exclusief voor haar publishers een gratis zorgverzekeringvergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende zorgverzekeraars met elkaar te vergelijken.
 			<br/><br/>
-			Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://prijsvergelijkers.affiliateprogramma.eu/zorgverzekeringvergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
+			Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/zorgverzekeringvergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
 			<br/><br/>
 			<h1>Standaardgebruik</h1>
 			Vul je <a href="http://www.daisycon.com/nl/faq/publishers/affiliate_marketing/waar_vind_ik_mijn_media_id/" target="_blank" title="Waar vind ik mijn Media ID?">Media ID</a> op de plek van XXXXX in. Je Media ID kun je ook opslaan, zodat hij standaard wordt ingevuld. Dit doe je bij het menu-item <a href="admin.php?page=daisycontools">Introductie</a>. Bij amount vul je het aantal resultaten in dat je wil tonen.

@@ -49,10 +49,10 @@ class generalSummer{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<img src="http://www.daisycon.com/shared/daisyconwebsite/img/layout/blog/publish-tools_vakantievergelijker_paxz_100.png" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon vakantievergelijker</h1>
-						Daisycon heeft exclusief voor haar publishers een gratis vakantievergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende vakanties met elkaar te vergelijken.
+						<img src="http://www.daisycon.com/shared/daisyconwebsite/img/layout/blog/publish-tools_vakantievergelijker_paxz_100.png" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon vakantietool</h1>
+						Daisycon heeft exclusief voor haar publishers een gratis vakantietool ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat een groot aanbod van zomervakanties te bekijken. 
 						<br/><br/>
-						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://prijsvergelijkers.affiliateprogramma.eu/vakantievergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
+						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/vakantietool/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
 						<br/><br/>
 						<h1>Standaardgebruik</h1>
 						Vul je <a href="http://www.daisycon.com/nl/faq/publishers/affiliate_marketing/waar_vind_ik_mijn_media_id/" target="_blank" title="Waar vind ik mijn Media ID?">Media ID</a> op de plek van XXXXX in. Je Media ID kun je ook opslaan, zodat hij standaard wordt ingevuld. Dit doe je bij het menu-item <a href="admin.php?page=daisycontools">Introductie</a>. Bij amount vul je het aantal resultaten in dat je wil tonen en je kunt indien gewenst een <a href="http://www.daisycon.com/nl/blog/hoe_gebruik_je_sub_ids/" target="_blank">Sub ID</a> invullen.
@@ -65,7 +65,7 @@ class generalSummer{
 						<p>&nbsp;</p>
 					
 						<h1>Geavanceerd gebruik</h1>
-						Geavanceerd zal nog worden aangevuld. Gebruik de <a href="http://www.daisycon.com/nl/tools/vakantievergelijker/" target="_blank">generator</a> als je meer opties wil hebben.';
+						Geavanceerd zal nog worden aangevuld. Gebruik de <a href="http://www.daisycon.com/nl/tools/vakantietool/" target="_blank">generator</a> als je meer opties wil hebben.';
 						
 				
 		echo $output;
