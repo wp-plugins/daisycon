@@ -38,17 +38,17 @@ De Daisycon Zorgverzekeringvergelijker stelt de bezoekers van jouw website in st
 
 [Bekijk hier een voorbeeld van de Zorgverzekeringvergelijker.](http://vergelijkers.daisycon.com/zorgverzekeringvergelijker/ "zorgverzekeringvergelijker")
 
-**Wintersportvergelijker**
+**Wintersporttool**
 
 De Daisycon Wintersporttool stelt de bezoekers van jouw website in staat verschillende wintersportvakanties met elkaar te vergelijken.
 
-[Bekijk hier een voorbeeld van de Wintersporttool.](http://vergelijkers.daisycon.com/wintersportvergelijker/ "wintersporttool")
+[Bekijk hier een voorbeeld van de Wintersporttool.](http://vergelijkers.daisycon.com/wintersporttool "wintersporttool")
 
 **Vakantietool**
 
 De Daisycon Vakantietool stelt de bezoekers van jouw website in staat verschillende vakanties met elkaar te vergelijken.
 
-[Bekijk hier een voorbeeld van de Vakantievergelijker.](http://vergelijkers.daisycon.com/vakantievergelijker/ "vakantietool")
+[Bekijk hier een voorbeeld van de Vakantievergelijker.](http://vergelijkers.daisycon.com/vakantietool/ "vakantietool")
 
 **Energievergelijker**
 
