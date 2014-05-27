@@ -2,9 +2,9 @@
 Contributors: Daisycon
 Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
-Tested up to: 3.8
+Tested up to: 3.9.1
 Donate link: 
-Stable tag: 1.6.1
+Stable tag: 1.7
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -62,6 +62,11 @@ De Daisycon Autoverzekeringvergelijker stelt de bezoekers van jouw website in st
 
 [Bekijk hier een voorbeeld van de Autoverzekeringvergelijker.](http://vergelijkers.daisycon.com/autoverzekeringvergelijker/ "autoverzekeringvergelijker")
 
+**Dagaanbiedingen-tool**
+
+De Daisycon Dagaanbiedingen-tool stelt de bezoekers van jouw website in staat verschillende aanbieders van dagaanbiedingen als banners op je website te zetten.
+
+[Bekijk hier een voorbeeld van de Dagaanbiedingen-tool.](http://vergelijkers.daisycon.com/dagaanbiedingen-tool// "dagaanbiedingen-tool/")
 
 
 **Voordelen Daisycon prijsvergelijkers**
@@ -128,6 +133,10 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Changelog ==
 
+= 1.7 =
+* Telecomvergelijker update
+* Dagaanbiedingen-tool toegevoegd
+
 = 1.6.1 =
 * Bugfix en paar tekstuele wijzigingen
 
@@ -159,6 +168,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 * Stabiele release
 
 == Upgrade Notice ==
+
+= 1.7 =
+Dagaanbiedingen-tool toegevoegd en Telecomvergelijker update gegeven
 
 = 1.6 =
 Vakantievergelijker toegevoegd
