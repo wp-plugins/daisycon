@@ -81,6 +81,8 @@ class generalSettings{
 					<br/><br/>
 					<a href="http://vergelijkers.daisycon.com/vakantietool/" target="_blank">Bekijk hier een voorbeeld van de Vakantietool.</a>
 					<br/><br/>
+					<a href="http://vergelijkers.daisycon.com/dagaanbiedingen-tool/" target="_blank">Bekijk hier een voorbeeld van de Dagaanbiedingen-tool.</a>
+					<br/><br/>
 					<h2>Andere plugins van Daisycon</h2>
 					<a href="http://wordpress.org/extend/plugins/affiliate-marketing-xml-product-feed-importer-for-daisycon/" target="_blank">Download hier de Daisycon plugin</a> waarmee je alle productfeeds van Daisycon kan gebruiken. 
 					<br/><br/>

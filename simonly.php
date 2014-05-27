@@ -36,8 +36,6 @@ class generalSim{
 					</div>					
 					';
 		
-		wp_register_script( 'generalSim', 'http://developers.affiliateprogramma.eu/mobielvergelijker/general.js');
-		
 		$output .= 	'
 					<script type="text/javascript">
 					jQuery.ajax
@@ -67,7 +65,7 @@ class generalSim{
 					function getProviders()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/includes/data.php?method=simProviders&jsoncallback=?",
+							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=simProviders&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -81,7 +79,7 @@ class generalSim{
 					function getPrograms()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/includes/data.php?method=simPrograms&jsoncallback=?",
+							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=simPrograms&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -157,7 +155,8 @@ class generalSim{
 			// Register jQuery files
 			wp_register_script( 'ui_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/jquery.nouislider.min.js');
 			wp_register_script( 'general_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/general.js');
-	
+			wp_register_script( 'generalSim', 'http://developers.affiliateprogramma.eu/mobielvergelijker/general.js');
+			
 			// Register stylesheet files
 			wp_register_style('stylesheet1_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/style.css');
 			wp_register_style('stylesheet2_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/nouislider.fox.css');
