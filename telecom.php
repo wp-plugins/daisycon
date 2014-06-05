@@ -67,7 +67,7 @@ class generalCom{
 					function getMobiles()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/includes/data.php?method=wpMobiles&jsoncallback=?",
+							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpMobiles&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -81,7 +81,7 @@ class generalCom{
 					function getBrands()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/includes/data.php?method=wpBrands&jsoncallback=?",
+							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpBrands&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -95,7 +95,7 @@ class generalCom{
 					function getProviders()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/includes/data.php?method=wpProviders&jsoncallback=?",
+							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpProviders&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -109,7 +109,7 @@ class generalCom{
 					function getPrograms()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/includes/data.php?method=wpPrograms&jsoncallback=?",
+							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpPrograms&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -154,6 +154,9 @@ class generalCom{
 					<div style="width:130px; float:left;"><u>Minuten</u></div><div style="width:130px; float:left;">minmin - maxmin</div> =&nbsp; 0 t/m 2000<br/>
 					<div style="width:130px; float:left;"><u>Internet</u></div><div style="width:130px; float:left;">minint - maxint</div> =&nbsp; 0 t/m 6000<br/>
 					<div style="width:130px; float:left;"><u>Abonnementsprijs</u></div><div style="width:130px; float:left;">minab - maxab</div> =&nbsp; 0 t/m 250
+					<br/><br/>
+					<h3>Filters</h3>
+					Met de optie <strong>filters=""</strong> is het mogelijk om de filters uit te zetten. Gebruik <strong>filters="0"</strong> om de filters uit te zetten.
 					<br/><br/>
 					<h3>Titel van de telecomvergelijker</h3>
 					Met de optie <strong>title=""</strong> is het mogelijk om een titel boven de vergelijker te plaatsen. Standaard wordt deze tussen de h2 tags geplaatst. Deze optie is niet verplicht.
@@ -235,6 +238,10 @@ class generalCom{
 				$array['minmin'] = 100;
 			}
 			
+			if( !isset($array['filters']) ){
+				$array['filters'] = 1;
+			}
+			
 			if( !isset($array['maxmin']) ){
 				$array['maxmin'] = 500;
 			}
@@ -259,39 +266,12 @@ class generalCom{
 				$array['mobiles'] = 'all';
 			}
 			
-			// Add comparator
-			$result = '	<script type="text/javascript">
-							mediaid="'.$array['mediaid'].'";
-							subid="'.$array['subid'].'";
-							entry='.$array['amount'].';
-							provider="'.$array['provider'].'";
-							duration='.$array['duration'].';
-							col="1111111";
-							programs="'.$array['programs'].'";
-							header="FFFFFF";
-							background_price="E2F0FB";
-							border="ECECEC";
-							button_text="Bekijken";
-							button_color="FF8300";
-							button_hover="FF9E3D";
-							button_textcolor="FFFFFF";
-							font="Arial";
-							slider="3694C7";
-							minMob="'.$array['minmob'].'";
-							maxMob="'.$array['maxmob'].'";
-							minMin="'.$array['minmin'].'";
-							maxMin="'.$array['maxmin'].'";
-							minInt="'.$array['minint'].'";
-							maxInt="'.$array['maxint'].'";
-							minAb="'.$array['minab'].'";
-							maxAb="'.$array['maxab'].'";
-							mobiles="'.$array['mobiles'].'";</script>';
-			
+
 		if(!empty( $array['title'] )){
 			$result .= '	<h2>'.$array['title'].'</h2>';
 		}
 		
-			$result .= '	<div id="mobile-comparator-wrapper" class="mobile-comparator-wrapper" style="background-color:#FFFFFF !important;"></div>';
+			$result = '<div class="mobile-comparator-wrapper" style="background-color:#FFFFFF !important;" data-mediaid="'.$array['mediaid'].'" data-subid="'.$array['subid'].'" data-entry="'.$array['amount'].'" data-provider="'.$array['provider'].'" data-duration="'.$array['duration'].'" data-renewal="0" data-filter_view="'.$array['filters'].'" data-col="1111111" data-programs="'.$array['programs'].'" data-background_price="E2F0FB" data-button_text="Bekijken" data-button_color="FF8300" data-button_hover="FF9E3D" data-button_textcolor="FFFFFF" data-font="Arial" data-minMob="'.$array['minmob'].'" data-maxMob="'.$array['maxmob'].'" data-minMin="'.$array['minmin'].'" data-maxMin="'.$array['maxmin'].'" data-minInt="'.$array['minint'].'" data-maxInt="'.$array['maxint'].'" data-minAb="'.$array['minab'].'" data-maxAb="'.$array['maxab'].'" data-mobiles="'.$array['mobiles'].'" data-v="2"></div>';
 		}
 			
 		return($result);
