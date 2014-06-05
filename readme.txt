@@ -4,7 +4,7 @@ Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
 Tested up to: 3.9.1
 Donate link: 
-Stable tag: 1.7
+Stable tag: 1.8
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -133,6 +133,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Changelog ==
 
+= 1.8 =
+* Sim only-vergelijker update
+
 = 1.7 =
 * Telecomvergelijker update
 * Dagaanbiedingen-tool toegevoegd
@@ -168,6 +171,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 * Stabiele release
 
 == Upgrade Notice ==
+
+= 1.8 =
+Sim only-vergelijker update gegeven
 
 = 1.7 =
 Dagaanbiedingen-tool toegevoegd en Telecomvergelijker update gegeven

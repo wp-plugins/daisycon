@@ -194,19 +194,7 @@ class generalDailyoffer{
 			}
 						
 			// Add comparator
-			$result = '	<div class="DaisyconDailyOffers" 
-							data-mediaID="'.$array['mediaid'].'" 
-							data-subid="'.$array['subid'].'" 
-							data-size="'.$array['size'].'" 
-							data-colorButton="FF8201" 
-							data-colorHead="2B9AE2" 
-							data-text="'.$array['text'].'" 
-							data-multiple="'.$array['multiple'].'" 
-							data-price="3000" 
-							data-category="'.$array['category'].'" 
-							data-advertiser="'.$array['programs'].'" 
-							data-speed="'.$array['slideshow'].'">
-						</div>';
+			$result = '	<div class="DaisyconDailyOffers" data-mediaID="'.$array['mediaid'].'" data-subid="'.$array['subid'].'" data-size="'.$array['size'].'" data-colorButton="FF8201" data-colorHead="2B9AE2" data-text="'.$array['text'].'" data-multiple="'.$array['multiple'].'" data-price="3000" data-category="'.$array['category'].'" data-advertiser="'.$array['programs'].'" data-speed="'.$array['slideshow'].'"></div>';
 
 		}
 			

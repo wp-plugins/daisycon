@@ -125,7 +125,10 @@ class generalSim{
 					<br/><br/>
 					<h3>Titel van de Sim only-vergelijker</h3>
 					Met de optie <strong>title=""</strong> is het mogelijk om een titel boven de vergelijker te plaatsen. Standaard wordt deze tussen de h2 tags geplaatst. Deze optie is niet verplicht.
-					<br/><br/>				
+					<br/><br/>	
+					<h3>Filters</h3>
+					Met de optie <strong>filters=""</strong> is het mogelijk om de filters uit te zetten. Gebruik <strong>filters="0"</strong> om de filters uit te zetten.
+					<br/><br/>			
 					<h3>Contractduur</h3>
 					Gebruik de onderstaande aantal maanden om in te vullen bij <strong>duration=""</strong>. Als je op zowel 12 als 24 maanden wilt zoeken gebruik je <strong>duration="all"</strong>.<br/>
 					<i>1, 12, 24</i>
@@ -155,7 +158,6 @@ class generalSim{
 			// Register jQuery files
 			wp_register_script( 'ui_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/jquery.nouislider.min.js');
 			wp_register_script( 'general_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/general.js');
-			wp_register_script( 'generalSim', 'http://developers.affiliateprogramma.eu/mobielvergelijker/general.js');
 			
 			// Register stylesheet files
 			wp_register_style('stylesheet1_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/style.css');
@@ -214,32 +216,26 @@ class generalSim{
 			if( !isset($array['maxab']) ){
 				$array['maxab'] = 100;
 			}
-					
-			// Add comparator
-			$result = '	<script type="text/javascript">
-							var daisyconSimonlyMediaId='.$array['mediaid'].';
-							var daisyconSimonlySubId="'.$array['subid'].'";
-							var daisyconSimonlyLimit='.$array['amount'].';
-							var daisyconSimonlyProviders="'.$array['provider'].'";
-							var daisyconSimonlyDuration="'.$array['duration'].'";
-							var daisyconSimonlyPrograms="'.$array['programs'].'";
-							var daisyconSimonlyActionColor="FF8201";
-							var daisyconSimonlyButton="Bekijken";
-							var daisyconSimonlyMinAb="'.$array['minab'].'";
-							var daisyconSimonlyMaxAb="'.$array['maxab'].'";
-							var daisyconSimonlyMinMin="'.$array['minmin'].'";
-							var daisyconSimonlyMaxMin="'.$array['maxmin'].'";
-							var daisyconSimonlyMinSms="'.$array['minsms'].'";
-							var daisyconSimonlyMaxSms="'.$array['maxsms'].'";
-							var daisyconSimonlyMinInternet="'.$array['minint'].'";
-							var daisyconSimonlyMaxInternet="'.$array['maxint'].'";
-						</script>';
 			
-		if(!empty( $array['title'] )){
-			$result .= '	<h2>'.$array['title'].'</h2>';
-		}
-		
-			$result .= '	<div id="daisyconSimonlyComperator" style="background-color:#FFFFFF !important;"></div>';
+			if( !isset($array['filters']) ){
+				$array['filters'] = 'true';
+			}else{
+				if($array['filters'] == 1){
+					$array['filters'] = 'true';
+				}elseif($array['filters'] == 0){
+					$array['filters'] = 'false';
+				}
+			}
+
+			if(!empty( $array['title'] )){
+				$result .= '	<h2>'.$array['title'].'</h2>';
+			}
+						
+			// Add comparator
+			$result = '
+				<div class="daisyconSimonlyComperatorNew" style="background-color:#FFFFFF !important;" data-daisyconSimonlyMediaId="'.$array['mediaid'].'" data-daisyconSimonlySubId="'.$array['subid'].'" data-daisyconSimonlyLimit="'.$array['amount'].'" data-daisyconSimonlyProviders="'.$array['provider'].'" data-daisyconSimonlyDuration="'.$array['duration'].'" data-daisyconSimonlyPrograms="'.$array['programs'].'" data-daisyconSimonlyActionColor="2B9AE2" data-daisyconSimonlyButton="Bekijken" data-daisyconFilterShow="'.$array['filters'].'" data-daisyconSimonlyMinAb="'.$array['minab'].'" data-daisyconSimonlyMaxAb="'.$array['maxab'].'" data-daisyconSimonlyMinMin="'.$array['minmin'].'" data-daisyconSimonlyMaxMin="'.$array['maxmin'].'" data-daisyconSimonlyMinSms="'.$array['minsms'].'" data-daisyconSimonlyMaxSms="'.$array['maxsms'].'" data-daisyconSimonlyMinInternet="'.$array['minint'].'" data-daisyconSimonlyMaxInternet="'.$array['maxint'].'"></div>
+			';
+
 		}
 			
 		return($result);
