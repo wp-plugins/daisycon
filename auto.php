@@ -74,7 +74,7 @@ class generalAuto{
 						</div>
 						
 						<br/><br/>
-						<h3>Titel van de telecomvergelijker</h3>
+						<h3>Titel van de autoverzekeringvergelijker</h3>
 						Met de optie <strong>title=""</strong> is het mogelijk om een titel boven de vergelijker te plaatsen. Standaard wordt deze tussen de h2 tags geplaatst. Deze optie is niet verplicht.
 						<br/><br/>				
 						
