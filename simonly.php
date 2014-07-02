@@ -227,12 +227,13 @@ class generalSim{
 				}
 			}
 
+			$result = '';
 			if(!empty( $array['title'] )){
 				$result .= '	<h2>'.$array['title'].'</h2>';
 			}
 						
 			// Add comparator
-			$result = '
+			$result .= '
 				<div class="daisyconSimonlyComperatorNew" style="background-color:#FFFFFF !important;" data-daisyconSimonlyMediaId="'.$array['mediaid'].'" data-daisyconSimonlySubId="'.$array['subid'].'" data-daisyconSimonlyLimit="'.$array['amount'].'" data-daisyconSimonlyProviders="'.$array['provider'].'" data-daisyconSimonlyDuration="'.$array['duration'].'" data-daisyconSimonlyPrograms="'.$array['programs'].'" data-daisyconSimonlyActionColor="2B9AE2" data-daisyconSimonlyButton="Bekijken" data-daisyconFilterShow="'.$array['filters'].'" data-daisyconSimonlyMinAb="'.$array['minab'].'" data-daisyconSimonlyMaxAb="'.$array['maxab'].'" data-daisyconSimonlyMinMin="'.$array['minmin'].'" data-daisyconSimonlyMaxMin="'.$array['maxmin'].'" data-daisyconSimonlyMinSms="'.$array['minsms'].'" data-daisyconSimonlyMaxSms="'.$array['maxsms'].'" data-daisyconSimonlyMinInternet="'.$array['minint'].'" data-daisyconSimonlyMaxInternet="'.$array['maxint'].'"></div>
 			';
 

@@ -266,12 +266,12 @@ class generalCom{
 				$array['mobiles'] = 'all';
 			}
 			
-
+		$result = '';
 		if(!empty( $array['title'] )){
 			$result .= '	<h2>'.$array['title'].'</h2>';
 		}
 		
-			$result = '<div class="mobile-comparator-wrapper" style="background-color:#FFFFFF !important;" data-mediaid="'.$array['mediaid'].'" data-subid="'.$array['subid'].'" data-entry="'.$array['amount'].'" data-provider="'.$array['provider'].'" data-duration="'.$array['duration'].'" data-renewal="0" data-filter_view="'.$array['filters'].'" data-col="1111111" data-programs="'.$array['programs'].'" data-background_price="E2F0FB" data-button_text="Bekijken" data-button_color="FF8300" data-button_hover="FF9E3D" data-button_textcolor="FFFFFF" data-font="Arial" data-minMob="'.$array['minmob'].'" data-maxMob="'.$array['maxmob'].'" data-minMin="'.$array['minmin'].'" data-maxMin="'.$array['maxmin'].'" data-minInt="'.$array['minint'].'" data-maxInt="'.$array['maxint'].'" data-minAb="'.$array['minab'].'" data-maxAb="'.$array['maxab'].'" data-mobiles="'.$array['mobiles'].'" data-v="2"></div>';
+			$result .= '<div class="mobile-comparator-wrapper" style="background-color:#FFFFFF !important;" data-mediaid="'.$array['mediaid'].'" data-subid="'.$array['subid'].'" data-entry="'.$array['amount'].'" data-provider="'.$array['provider'].'" data-duration="'.$array['duration'].'" data-renewal="0" data-filter_view="'.$array['filters'].'" data-col="1111111" data-programs="'.$array['programs'].'" data-background_price="E2F0FB" data-button_text="Bekijken" data-button_color="FF8300" data-button_hover="FF9E3D" data-button_textcolor="FFFFFF" data-font="Arial" data-minMob="'.$array['minmob'].'" data-maxMob="'.$array['maxmob'].'" data-minMin="'.$array['minmin'].'" data-maxMin="'.$array['maxmin'].'" data-minInt="'.$array['minint'].'" data-maxInt="'.$array['maxint'].'" data-minAb="'.$array['minab'].'" data-maxAb="'.$array['maxab'].'" data-mobiles="'.$array['mobiles'].'" data-v="2"></div>';
 		}
 			
 		return($result);

@@ -4,12 +4,12 @@ Plugin Name: Daisycon prijsvergelijkers
 Plugin URI: http://prijsvergelijkers.affiliateprogramma.eu/
 Description: Promoot adverteeders van Daisycon eenvoudig en goed met de verschillende professionele prijsvergelijkers voor WordPress-publishers. Met deze plugin kun je eenvoudig en snel een vergelijkingssite maken. De plugin bevat op dit moment zes vergelijkers en zal regelmatig worden aangevuld met nieuwe tools, dus houd de updates in de gaten!
 Author: Daisycon
-Version: 1.8
+Version: 1.8.1
 Author URI: http://www.daisycon.com
 */
 
-// Turn of all error reporting in the plugin
-//error_reporting(0);
+// Turn off all error reporting in the plugin
+error_reporting(0);
 
 // Required files
 require_once('general.php');
