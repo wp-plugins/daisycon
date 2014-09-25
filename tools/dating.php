@@ -121,10 +121,10 @@ class generalDating{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'dating', 'http://developers.affiliateprogramma.eu/Datingvergelijker/vergelijker.js');
+			wp_register_script( 'dating', 'http://developers.affiliateprogramma.eu/datingsitevergelijker/vergelijker.js');
 			
 			// Register stylesheet files
-			wp_register_style('stylesheet_dating', 'http://developers.affiliateprogramma.eu/Datingvergelijker/example.css');
+			wp_register_style('stylesheet_dating', 'http://developers.affiliateprogramma.eu/datingsitevergelijker/example.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'dating' );

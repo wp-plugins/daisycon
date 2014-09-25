@@ -4,7 +4,7 @@ Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
 Tested up to: 4.0
 Donate link: 
-Stable tag: 1.9
+Stable tag: 1.9.1
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -144,6 +144,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Changelog ==
 
+= 1.9.1 =
+* Belangrijke bugfix voor datingsitevergelijker
+
 = 1.9 =
 * Reisverzekeringvergelijker toegevoegd
 * Datingsitevergelijker toegevoegd
@@ -190,6 +193,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 * Stabiele release
 
 == Upgrade Notice ==
+
+= 1.9.1 =
+Belangrijke bugfix voor datingsitevergelijker
 
 = 1.9 =
 Datingsitevergelijker en reisverzekeringvergelijker toegevoegd
