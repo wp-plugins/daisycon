@@ -13,7 +13,7 @@ class generalSettings{
 		global $wpdb;
 		
 		// Add Stylesheet
-		wp_enqueue_style('stylesheetTools', '/wp-content/plugins/daisycon/style.css');
+		wp_enqueue_style('stylesheetTools', '../includes/style.css');
 
 		if (isset($_POST['saveform'])){
 
@@ -61,9 +61,9 @@ class generalSettings{
 		$cMediaid = $wpdb->get_row("SELECT * FROM ".$wpdb->prefix."daisycon_tools");
 		
 		$output = 	'<div style="width:900px;">
-					<img src="'.plugin_dir_url( __FILE__ ) . '/images/vergelijkers-affiliate-marketing.png" alt="" title="" style="margin-right:20px;" />
+					<img src="../wp-content/plugins/daisycon/images/vergelijkers-affiliate-marketing.png" alt="" title="" style="margin-right:20px;" />
 					<br/>
-					Daisycon biedt haar publishers zes gratis prijsvergelijkers waarmee je doormiddel van een shorttag direct een vergelijker op je WordPress-website kunt plaatsen. Maak een keuze tussen de Telecomvergelijker (die abonnementen inclusief toestel vergelijkt), Sim only-vergelijker, Energievergelijker, Zorgverzekeringvergelijker, Autoverzekeringvergelijker, Vakantietool of de Wintersporttool.
+					Daisycon biedt haar publishers tien gratis prijsvergelijkers waarmee je doormiddel van een shorttag direct een vergelijker op je WordPress-website kunt plaatsen. Maak een keuze tussen de Telecomvergelijker, Sim only-vergelijker, Energievergelijker, Zorgverzekeringvergelijker, Autoverzekeringvergelijker, Dagaanbiedingen-tool, Datingsitevergelijker, Vakantietool of de Wintersporttool.
 					<br/><br/>
 					Om de plugins te gebruiken moet je aangemeld zijn als publisher bij Daisycon. <a href="http://www.daisycon.com/nl/publishers/" target="_blank">Klik hier om je gratis aan te melden.</a>
 					<br/><br/>
@@ -77,11 +77,15 @@ class generalSettings{
 					<br/><br/>
 					<a href="http://vergelijkers.daisycon.com/autoverzekeringvergelijker/" target="_blank">Bekijk hier een voorbeeld van de Autoverzekeringvergelijker.</a>
 					<br/><br/>
+					<a href="http://vergelijkers.daisycon.com/reisverzekeringvergelijker/" target="_blank">Bekijk hier een voorbeeld van de Reisverzekeringvergelijker.</a>
+					<br/><br/>
 					<a href="http://vergelijkers.daisycon.com/wintersporttool/" target="_blank">Bekijk hier een voorbeeld van de Wintersporttool.</a>
 					<br/><br/>
 					<a href="http://vergelijkers.daisycon.com/vakantietool/" target="_blank">Bekijk hier een voorbeeld van de Vakantietool.</a>
 					<br/><br/>
 					<a href="http://vergelijkers.daisycon.com/dagaanbiedingen-tool/" target="_blank">Bekijk hier een voorbeeld van de Dagaanbiedingen-tool.</a>
+					<br/><br/>
+					<a href="http://vergelijkers.daisycon.com/datingsitevergelijker/" target="_blank">Bekijk hier een voorbeeld van de Datingsitevergelijker.</a>
 					<br/><br/>
 					<h2>Andere plugins van Daisycon</h2>
 					<a href="http://wordpress.org/extend/plugins/affiliate-marketing-xml-product-feed-importer-for-daisycon/" target="_blank">Download hier de Daisycon plugin</a> waarmee je alle productfeeds van Daisycon kan gebruiken. 

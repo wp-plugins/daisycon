@@ -2,9 +2,9 @@
 Contributors: Daisycon
 Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
-Tested up to: 3.9.1
+Tested up to: 4.0
 Donate link: 
-Stable tag: 1.8.1
+Stable tag: 1.9
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -56,6 +56,12 @@ De Daisycon Energievergelijker stelt de bezoekers van jouw website in staat vers
 
 [Bekijk hier een voorbeeld van de Energievergelijker.](http://vergelijkers.daisycon.com/energievergelijker/ "energievergelijker")
 
+**Reisverzekeringvergelijker**
+
+De Daisycon Reisverzekeringvergelijker stelt de bezoekers van jouw website in staat verschillende reisverzekeringen met elkaar te vergelijken.
+
+[Bekijk hier een voorbeeld van de Reisverzekeringvergelijker.](http://vergelijkers.daisycon.com/reisverzekeringvergelijker/ "reisverzekeringvergelijker")
+
 **Autoverzekeringvergelijker**
 
 De Daisycon Autoverzekeringvergelijker stelt de bezoekers van jouw website in staat verschillende aanbieders van autoverzekeringen met elkaar te vergelijken.
@@ -66,8 +72,13 @@ De Daisycon Autoverzekeringvergelijker stelt de bezoekers van jouw website in st
 
 De Daisycon Dagaanbiedingen-tool stelt de bezoekers van jouw website in staat verschillende aanbieders van dagaanbiedingen als banners op je website te zetten.
 
-[Bekijk hier een voorbeeld van de Dagaanbiedingen-tool.](http://vergelijkers.daisycon.com/dagaanbiedingen-tool// "dagaanbiedingen-tool/")
+[Bekijk hier een voorbeeld van de Dagaanbiedingen-tool.](http://vergelijkers.daisycon.com/dagaanbiedingen-tool/ "dagaanbiedingen-tool/")
 
+**Datingsitevergelijker**
+
+De Daisycon Datingsitevergelijker stelt de bezoekers van jouw website in staat verschillende dating websites met elkaar te vergelijken.
+
+[Bekijk hier een voorbeeld van de Datingsitevergelijker.](http://vergelijkers.daisycon.com/datingsitevergelijker/ "datingsitevergelijker")
 
 **Voordelen Daisycon prijsvergelijkers**
 
@@ -133,6 +144,11 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Changelog ==
 
+= 1.9 =
+* Reisverzekeringvergelijker toegevoegd
+* Datingsitevergelijker toegevoegd
+* Tekstuele wijzigingen
+
 = 1.8.1 = 
 * Title tag in Telecom- en Sim Only-vergelijker gefixed
 
@@ -174,6 +190,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 * Stabiele release
 
 == Upgrade Notice ==
+
+= 1.9 =
+Datingsitevergelijker en reisverzekeringvergelijker toegevoegd
 
 = 1.8.1 = 
 Title tag in Telecom- en Sim Only-vergelijker gefixed
