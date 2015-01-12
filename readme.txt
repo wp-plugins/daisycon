@@ -2,9 +2,9 @@
 Contributors: Daisycon
 Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
-Tested up to: 4.0
+Tested up to: 4.1
 Donate link: 
-Stable tag: 1.9.1
+Stable tag: 2.0
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -25,6 +25,12 @@ De plugin bevat de volgende prijsvergelijkers:
 De Daisycon telecomvergelijker stelt de bezoekers van jouw website in staat verschillende telefoonabonnementen met elkaar te vergelijken.
 
 [Bekijk hier voor een voorbeeld van de Telecomvergelijker.](http://vergelijkers.daisycon.com/telecomvergelijker/ "Telecomvergelijker") 
+
+**Alles-in-één-vergelijker**
+
+De Daisycon alles-in-één-vergelijker stelt de bezoekers van jouw website in staat verschillende pakketten met internet, televisie en (vaste)telefonie met elkaar te vergelijken. 
+
+[Bekijk hier voor een voorbeeld van de Alles-in-één-vergelijker.](http://vergelijkers.daisycon.com/alles-in-een-vergelijker/ "Alles-in-één-vergelijker") 
 
 **Sim only-vergelijker**
 
@@ -144,6 +150,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Changelog ==
 
+= 2.0 =
+* Alles-in-één-vergelijker toegevoegd
+
 = 1.9.1 =
 * Belangrijke bugfix voor datingsitevergelijker
 
@@ -193,6 +202,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 * Stabiele release
 
 == Upgrade Notice ==
+
+= 2.0 =
+Alles-in-één-vergelijker toegevoegd
 
 = 1.9.1 =
 Belangrijke bugfix voor datingsitevergelijker
