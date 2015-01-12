@@ -4,7 +4,7 @@ Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
 Tested up to: 4.1
 Donate link: 
-Stable tag: 2.0
+Stable tag: 2.0 
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
