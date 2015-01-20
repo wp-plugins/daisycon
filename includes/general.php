@@ -57,8 +57,14 @@ class generalSettings{
 				
 			}
 		}
-		
-		$cMediaid = $wpdb->get_row("SELECT * FROM ".$wpdb->prefix."daisycon_tools");
+		$table_name = $wpdb->prefix.'daisycon_tools';
+		if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
+			$cMediaid = $wpdb->get_row("SELECT * FROM ".$wpdb->prefix."daisycon_tools");
+		}
+		else
+		{
+			$cMediaid->media_id = '';
+		}
 		
 		$output = 	'<div style="width:900px;">
 					<img src="../wp-content/plugins/daisycon/images/vergelijkers-affiliate-marketing.png" alt="" title="" style="margin-right:20px;" />

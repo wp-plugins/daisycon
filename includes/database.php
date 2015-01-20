@@ -7,13 +7,19 @@
  */
 
 global $wpdb;
-$defaultTablePrefix = $wpdb->prefix.'daisycon_';
+$table_name = $wpdb->prefix.'daisycon_tools';
 
-// Categories table
-$sql_mediaid = "
-	CREATE TABLE IF NOT EXISTS `".$defaultTablePrefix."tools` (
-		`media_id` int(11) NOT NULL
-	) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;";
+if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name)
+{
+	$defaultTablePrefix = $wpdb->prefix.'daisycon_tools';
 
-$query_publisher = mysql_query($sql_mediaid);
+	// Categories table
+	$sql_mediaid = "
+		CREATE TABLE IF NOT EXISTS `".$defaultTablePrefix."` (
+			`media_id` int(11) NOT NULL
+		) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;";
+
+	$query_publisher = $wpdb->query($wpdb->prepare($sql_mediaid));
+}
+
 ?>
