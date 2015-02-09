@@ -200,38 +200,14 @@ class generalEnergy{
 			
 			if( empty($array['meter']) ){
 				$array['meter'] = 'enkel';
-			}
-						
-			// Add comparator
-			$result = '<script type="text/javascript">
-							daisyconEnergyMediaID='.$array['mediaid'].';
-							daisyconEnergySubID="'.$array['subid'].'";
-							daisyconEnergyActionPackets="all";
-							daisyconEnergyPackets="all";
-							daisyconEnergyCompanies="'.$array['programs'].'";
-							daisyconEnergyDuration="'.$array['duur'].'";
-							daisyconEnergyDuurzaam="'.$array['duurzaam'].'";
-							daisyconEnergyView="all";
-							daisyconEnergyUrl="";
-							daisyconEnergyAmount="'.$array['amount'].'";
-							daisyconEnergySidebar="'.$array['sidebar'].'";
-							daisyconEnergyHouse="'.$array['huis'].'";
-							daisyconEnergyPersons="'.$array['personen'].'";
-							daisyconEnergyMeter="'.$array['meter'].'";
-							daisyconEnergyviewColums="1,1,1,1,1,1";
-							daisyconEnergyColor="00A6DA";
-							daisyconEnergyTextColor="FFFFFF";
-							daisyconEnergyActionColor="FF8201";
-						</script>';
+			}	
 			
-		if(!empty( $array['title'] )){
-			$result .= '	<h2>'.$array['title'].'</h2>';
-		}
+			if(!empty( $array['title'] )){
+				$result .= '	<h2>'.$array['title'].'</h2>';
+			}
+			
+			$result = '<div class="daisyconEnergyComparator" data-daisyconEnergyMediaID="'.$array['mediaid'].'" data-daisyconEnergySubID="'.$array['subid'].'" data-daisyconEnergyAmount="'.$array['amount'].'" data-daisyconEnergyActionPackets="all" data-daisyconEnergyPackets="all" data-daisyconEnergyCompanies="'.$array['programs'].'" data-daisyconEnergyDuration="'.$array['duur'].'" data-daisyconEnergyDuurzaam="'.$array['duurzaam'].'" data-daisyconEnergyView="all" data-daisyconEnergyUrl="" data-daisyconEnergySidebar="'.$array['sidebar'].'" data-daisyconEnergyShowActionTable="true" data-daisyconEnergyHouse="'.$array['huis'].'" data-daisyconEnergyPersons="'.$array['personen'].'" data-daisyconEnergySave="1" data-daisyconEnergyUrl="" data-daisyconEnergyMeter="'.$array['meter'].'" data-daisyconEnergyviewColums="1,1,1,1,1,1,1" data-daisyconEnergyColor="00A6DA" data-daisyconEnergyTextColor="FFFFFF" data-daisyconEnergyActionColor="FF8201" ><div class="daisyconEnergyFilters"></div><div class="daisyconEnergyTableContainer"></div></div>';
 		
-			$result .= '	<div id="daisyconEnergyComparator">
-								<div id="daisyconEnergyFilters"></div>
-								<div id="daisyconEnergyTableContainer"></div>
-							</div>';
 		}
 			
 		return($result);

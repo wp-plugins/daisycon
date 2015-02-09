@@ -4,7 +4,7 @@ Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
 Tested up to: 4.1
 Donate link: 
-Stable tag: 2.0.1 
+Stable tag: 2.1
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -150,6 +150,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 
 == Changelog ==
 
+= 2.1 =
+* Belangrijke update voor de energievergelijker om responsive te worden
+
 = 2.0.1 =
 * Database connection fix
 
@@ -205,6 +208,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 * Stabiele release
 
 == Upgrade Notice ==
+
+= 2.1 =
+Belangrijke update voor de energievergelijker om responsive te worden
 
 = 2.0.1 =
 Database fix, update voor nieuwe php versies
