@@ -38,7 +38,7 @@ class generalEnergy{
 							
 							function getAanbieders(){ 
 								jQuery.ajax({
-									url: "http://developers.affiliateprogramma.eu/Energievergelijker/config/data.php?method=getStringAanbieders&jsoncallback=?",
+									url: "//developers.affiliateprogramma.eu/Energievergelijker/config/data.php?method=getStringAanbieders&jsoncallback=?",
 									dataType: "jsonp",
 									async: true,
 									success: function(data){
@@ -49,7 +49,7 @@ class generalEnergy{
 							
 							jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=energie&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=energie&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -65,7 +65,7 @@ class generalEnergy{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/energievergelijker-tools.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon Energievergelijker</h1>
+						<img src="//images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/energievergelijker-tools.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon Energievergelijker</h1>
 						Daisycon heeft exclusief voor haar publishers een gratis energievergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende energie aanbieders met elkaar te vergelijken.
 						<br/><br/>
 						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/energievergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -161,10 +161,10 @@ class generalEnergy{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'energie', 'http://developers.affiliateprogramma.eu/Energievergelijker/general.js');
+			wp_register_script( 'energie', '//developers.affiliateprogramma.eu/Energievergelijker/general.js');
 			
 			// Register stylesheet files
-			wp_register_style('stylesheet_energie', 'http://developers.affiliateprogramma.eu/Energievergelijker/style.css');
+			wp_register_style('stylesheet_energie', '//developers.affiliateprogramma.eu/Energievergelijker/style.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'energie' );

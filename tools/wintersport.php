@@ -38,7 +38,7 @@ class generalWinter{
 							
 							jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=wintersport&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=wintersport&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -49,7 +49,7 @@ class generalWinter{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/Wintersportvergelijker_paxz.gif" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon Wintersporttool</h1>
+						<img src="//images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/Wintersportvergelijker_paxz.gif" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon Wintersporttool</h1>
 						Daisycon heeft exclusief voor haar publishers een gratis wintersporttool ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat een groot aanbod aan wintersportvakanties te bekijken. 
 						<br/><br/>
 						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/wintersporttool/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -138,11 +138,11 @@ class generalWinter{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'wintersport', 'http://developers.affiliateprogramma.eu/Wintersportvergelijker/general.js');
-			wp_register_script( 'ui', 'http://developers.affiliateprogramma.eu/Wintersportvergelijker/jquery.nouislider.min.js' );
+			wp_register_script( 'wintersport', '//developers.affiliateprogramma.eu/Wintersportvergelijker/general.js');
+			wp_register_script( 'ui', '//developers.affiliateprogramma.eu/Wintersportvergelijker/jquery.nouislider.min.js' );
 			
 			// Register stylesheet files
-			wp_register_style('stylesheet_winter', 'http://developers.affiliateprogramma.eu/Wintersportvergelijker/style.css');
+			wp_register_style('stylesheet_winter', '//developers.affiliateprogramma.eu/Wintersportvergelijker/style.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'wintersport' );

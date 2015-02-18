@@ -21,7 +21,7 @@ class generalCom{
 		}
 		
 		$output = 	'<div style="width:900px;">
-					<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/telecomver_publishtools_100x100.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon Telecomvergelijker</h1>
+					<img src="//images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/telecomver_publishtools_100x100.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon Telecomvergelijker</h1>
 					Daisycon heeft exclusief voor haar publishers een gratis telecomvergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende telefoonabonnementen met elkaar te vergelijken.
 					<br/><br/>
 					Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/telecomvergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -36,13 +36,13 @@ class generalCom{
 					</div>					
 					';
 		
-		wp_register_script( 'general', 'http://developers.affiliateprogramma.eu/mobielvergelijker/general.js');
+		wp_register_script( 'general', '//developers.affiliateprogramma.eu/mobielvergelijker/general.js');
 		
 		$output .= 	'
 					<script type="text/javascript">
 					jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=telecom&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=telecom&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -67,7 +67,7 @@ class generalCom{
 					function getMobiles()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpMobiles&jsoncallback=?",
+							url: "//developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpMobiles&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -81,7 +81,7 @@ class generalCom{
 					function getBrands()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpBrands&jsoncallback=?",
+							url: "//developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpBrands&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -95,7 +95,7 @@ class generalCom{
 					function getProviders()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpProviders&jsoncallback=?",
+							url: "//developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpProviders&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -109,7 +109,7 @@ class generalCom{
 					function getPrograms()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpPrograms&jsoncallback=?",
+							url: "//developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=wpPrograms&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -197,12 +197,12 @@ class generalCom{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'ui', 'http://developers.affiliateprogramma.eu/mobielvergelijker/jquery.nouislider.min.js');
-			wp_register_script( 'general', 'http://developers.affiliateprogramma.eu/mobielvergelijker/general.js');
+			wp_register_script( 'ui', '//developers.affiliateprogramma.eu/mobielvergelijker/jquery.nouislider.min.js');
+			wp_register_script( 'general', '//developers.affiliateprogramma.eu/mobielvergelijker/general.js');
 	
 			// Register stylesheet files
-			wp_register_style('stylesheet1', 'http://developers.affiliateprogramma.eu/mobielvergelijker/example.min.css');
-			wp_register_style('stylesheet2', 'http://developers.affiliateprogramma.eu/mobielvergelijker/nouislider.fox.css');
+			wp_register_style('stylesheet1', '//developers.affiliateprogramma.eu/mobielvergelijker/example.min.css');
+			wp_register_style('stylesheet2', '//developers.affiliateprogramma.eu/mobielvergelijker/nouislider.fox.css');
 	
 			// Add all files to head
 			wp_enqueue_script( 'general' );

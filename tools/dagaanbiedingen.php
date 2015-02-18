@@ -38,7 +38,7 @@ class generalDailyoffer{
 							
 							jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=dag&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=dag&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -49,7 +49,7 @@ class generalDailyoffer{
 							function getPrograms()
 							{	 
 								jQuery.ajax({
-									url: "http://developers.affiliateprogramma.eu/dagaanbiedingen/generator/data.php?method=wpProgramFilter&jsoncallback=?",
+									url: "//developers.affiliateprogramma.eu/dagaanbiedingen/generator/data.php?method=wpProgramFilter&jsoncallback=?",
 									dataType: "jsonp",
 									async: true,
 									success: function(data){
@@ -63,7 +63,7 @@ class generalDailyoffer{
 							function getCategories()
 							{	 
 								jQuery.ajax({
-									url: "http://developers.affiliateprogramma.eu/dagaanbiedingen/generator/data.php?method=wpCategoryFilter&jsoncallback=?",
+									url: "//developers.affiliateprogramma.eu/dagaanbiedingen/generator/data.php?method=wpCategoryFilter&jsoncallback=?",
 									dataType: "jsonp",
 									async: true,
 									success: function(data){
@@ -82,7 +82,7 @@ class generalDailyoffer{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<img src="http://www.daisycon.com/shared/daisyconwebsite/img/layout/blog/dagaanbiedingen_affiliate.gif" alt="" title="" style="width:110px;float:left;margin-right:20px;" /> <h1>Daisycon dagaanbiedingen-tool</h1>
+						<img src="//www.daisycon.com/shared/daisyconwebsite/img/layout/blog/dagaanbiedingen_affiliate.gif" alt="" title="" style="width:110px;float:left;margin-right:20px;" /> <h1>Daisycon dagaanbiedingen-tool</h1>
 						Daisycon heeft exclusief voor haar publishers een gratis dagaanbiedingen-tool ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website dagaanbiedingen te zien. 
 						<br/><br/>
 						Plak onderstaande shorttag in je blogpost of pagina en de dagaanbiedingen-tool verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/dagaanbiedingen-tool/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -152,9 +152,9 @@ class generalDailyoffer{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'dagaanbieding', 'http://developers.affiliateprogramma.eu/dagaanbiedingen/banner.js');
+			wp_register_script( 'dagaanbieding', '//developers.affiliateprogramma.eu/dagaanbiedingen/banner.js');
 			// Register stylesheet files
-			wp_register_style('stylesheet_dagaanbieding', 'http://developers.affiliateprogramma.eu/dagaanbiedingen/style.css');
+			wp_register_style('stylesheet_dagaanbieding', '//developers.affiliateprogramma.eu/dagaanbiedingen/style.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'dagaanbieding' );

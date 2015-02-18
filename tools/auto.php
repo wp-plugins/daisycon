@@ -38,7 +38,7 @@ class generalAuto{
 							
 							jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=wintersport&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=wintersport&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -49,7 +49,7 @@ class generalAuto{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/autoverzekeringvergelijker.gif" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon Autoverzekeringvergelijker</h1>
+						<img src="//images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/autoverzekeringvergelijker.gif" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon Autoverzekeringvergelijker</h1>
 						Daisycon heeft exclusief voor haar publishers een gratis autoverzekeringvergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende autoverzekeringen met elkaar te vergelijken.
 						<br/><br/>
 						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/autoverzekeringvergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -101,7 +101,7 @@ class generalAuto{
 		$output .=	'<script type="text/javascript">
 						jQuery.ajax
 						({
-							url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=auto&jsoncallback=?",
+							url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=auto&jsoncallback=?",
 							dataType: "jsonp",
 							cache: false,
 							success: function(html)
@@ -121,10 +121,10 @@ class generalAuto{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'auto', 'http://developers.affiliateprogramma.eu/Autoverzekeringvergelijker/general.js');
+			wp_register_script( 'auto', '//developers.affiliateprogramma.eu/Autoverzekeringvergelijker/general.js');
 			
 			// Register stylesheet files
-			wp_register_style('stylesheet_auto', 'http://developers.affiliateprogramma.eu/Autoverzekeringvergelijker/style.css');
+			wp_register_style('stylesheet_auto', '//developers.affiliateprogramma.eu/Autoverzekeringvergelijker/style.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'auto' );

@@ -38,7 +38,7 @@ class generalAllesineen{
 							
 							jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=allesin1&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=allesin1&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -49,7 +49,7 @@ class generalAllesineen{
 							function getPrograms()
 							{	 
 								jQuery.ajax({
-									url: "http://developers.affiliateprogramma.eu/allesin1/config/data.php?method=wpInstallPrograms&jsoncallback=?",
+									url: "//developers.affiliateprogramma.eu/allesin1/config/data.php?method=wpInstallPrograms&jsoncallback=?",
 									dataType: "jsonp",
 									async: true,
 									success: function(data){
@@ -67,7 +67,7 @@ class generalAllesineen{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<img src="http://www.daisycon.com/shared/daisyconwebsite/img/layout/blog/alles-in-een-vergelijker.gif" alt="" title="" style="float:left;margin-right:20px;border: solid 10px;border-color:#9CD137;width:100px; border-radius: 5px;" /> <h1>Daisycon Alles-in-&eacute;&eacute;n-vergelijker</h1>
+						<img src="//www.daisycon.com/shared/daisyconwebsite/img/layout/blog/alles-in-een-vergelijker.gif" alt="" title="" style="float:left;margin-right:20px;border: solid 10px;border-color:#9CD137;width:100px; border-radius: 5px;" /> <h1>Daisycon Alles-in-&eacute;&eacute;n-vergelijker</h1>
 						Daisycon heeft exclusief voor haar publishers een gratis Alles-in-&eacute;&eacute;n-vergelijker ontwikkeld. Met deze tool kunnen jouw bezoekers pakketten met internet, televisie en (vaste)telefonie vergelijken.
 						<br/><br/>
 						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/alles-in-een-vergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -142,10 +142,10 @@ class generalAllesineen{
 			}
 			
 			// Register jQuery files
-			wp_register_script( 'allesin1', 'http://developers.affiliateprogramma.eu/allesin1/general.js');
+			wp_register_script( 'allesin1', '//developers.affiliateprogramma.eu/allesin1/general.js');
 			
 			// Register stylesheet files
-			wp_register_style('stylesheet_allesin1', 'http://developers.affiliateprogramma.eu/allesin1/style.css');
+			wp_register_style('stylesheet_allesin1', '//developers.affiliateprogramma.eu/allesin1/style.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'allesin1' );

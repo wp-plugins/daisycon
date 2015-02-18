@@ -38,7 +38,7 @@ class generalSummer{
 							
 							jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=zomer&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=zomer&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -49,7 +49,7 @@ class generalSummer{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<img src="http://www.daisycon.com/shared/daisyconwebsite/img/layout/blog/publish-tools_vakantievergelijker_paxz_100.png" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon vakantietool</h1>
+						<img src="//www.daisycon.com/shared/daisyconwebsite/img/layout/blog/publish-tools_vakantievergelijker_paxz_100.png" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon vakantietool</h1>
 						Daisycon heeft exclusief voor haar publishers een gratis vakantietool ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat een groot aanbod van zomervakanties te bekijken. 
 						<br/><br/>
 						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/vakantietool/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -79,11 +79,11 @@ class generalSummer{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'zomer', 'http://developers.affiliateprogramma.eu/Zomervakantievergelijker/general.js');
-			wp_register_script( 'ui', 'http://developers.affiliateprogramma.eu/Zomervakantievergelijker/jquery.nouislider.min.js' );
+			wp_register_script( 'zomer', '//developers.affiliateprogramma.eu/Zomervakantievergelijker/general.js');
+			wp_register_script( 'ui', '//developers.affiliateprogramma.eu/Zomervakantievergelijker/jquery.nouislider.min.js' );
 			
 			// Register stylesheet files
-			wp_register_style('stylesheet_zomer', 'http://developers.affiliateprogramma.eu/Zomervakantievergelijker/style.css');
+			wp_register_style('stylesheet_zomer', '//developers.affiliateprogramma.eu/Zomervakantievergelijker/style.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'zomer' );

@@ -38,7 +38,7 @@ class generalReis{
 							
 							jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=wintersport&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=wintersport&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -49,7 +49,7 @@ class generalReis{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/reisverzekeringvergelijker_affiliate_marketing_tools.png" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon Reisverzekeringvergelijker</h1>
+						<img src="//images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/reisverzekeringvergelijker_affiliate_marketing_tools.png" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon Reisverzekeringvergelijker</h1>
 						Daisycon heeft exclusief voor haar publishers een gratis reisverzekeringvergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende autoverzekeringen met elkaar te vergelijken.
 						<br/><br/>
 						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/reisverzekeringvergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -101,7 +101,7 @@ class generalReis{
 		$output .=	'<script type="text/javascript">
 						jQuery.ajax
 						({
-							url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=reis&jsoncallback=?",
+							url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=reis&jsoncallback=?",
 							dataType: "jsonp",
 							cache: false,
 							success: function(html)
@@ -121,10 +121,10 @@ class generalReis{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'reisverzekering', 'http://developers.affiliateprogramma.eu/Reisverzekeringvergelijker/general.js');
+			wp_register_script( 'reisverzekering', '//developers.affiliateprogramma.eu/Reisverzekeringvergelijker/general.js');
 	
 			// Register stylesheet files
-			wp_register_style('stylesheet_reis', 'http://developers.affiliateprogramma.eu/Reisverzekeringvergelijker/style.css');
+			wp_register_style('stylesheet_reis', '//developers.affiliateprogramma.eu/Reisverzekeringvergelijker/style.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'reisverzekering' );

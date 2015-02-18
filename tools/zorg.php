@@ -38,7 +38,7 @@ class generalZorg{
 							
 							jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=zorg&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=zorg&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -50,7 +50,7 @@ class generalZorg{
 		';
 		
 		$output .= 	'<div style="width:900px;">
-			<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/Zorgverzekeringvergelijker2.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon Zorgverzekeringvergelijker</h1>
+			<img src="//images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/Zorgverzekeringvergelijker2.gif" alt="" title="" style="float:left;margin-right:20px;" /><h1>Daisycon Zorgverzekeringvergelijker</h1>
 			Daisycon heeft exclusief voor haar publishers een gratis zorgverzekeringvergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende zorgverzekeraars met elkaar te vergelijken.
 			<br/><br/>
 			Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/zorgverzekeringvergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -121,10 +121,10 @@ class generalZorg{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'zorgvergelijker', 'http://developers.affiliateprogramma.eu/zorgverzekeringvergelijker/vergelijker.js');
+			wp_register_script( 'zorgvergelijker', '//developers.affiliateprogramma.eu/zorgverzekeringvergelijker/vergelijker.js');
 	
 			// Register stylesheet files
-			wp_register_style('stylesheet_zorg', 'http://developers.affiliateprogramma.eu/zorgverzekeringvergelijker/example.css');
+			wp_register_style('stylesheet_zorg', '//developers.affiliateprogramma.eu/zorgverzekeringvergelijker/example.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'zorgvergelijker' );

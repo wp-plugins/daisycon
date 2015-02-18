@@ -21,7 +21,7 @@ class generalSim{
 		}
 		
 		$output = 	'<div style="width:900px;">
-					<img src="http://images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/simonly_affiliate_tools.gif" alt="" title="" style="float:left;margin-right:20px;" />  <h1>Daisycon Sim only-vergelijker</h1>
+					<img src="//images.daisycon.net/daisycon_website/daisyconwebsite/img/layout/blog/simonly_affiliate_tools.gif" alt="" title="" style="float:left;margin-right:20px;" />  <h1>Daisycon Sim only-vergelijker</h1>
 					Daisycon heeft exclusief voor haar publishers een gratis Sim only-vergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat verschillende sim only-abonnementen met elkaar te vergelijken.
 					<br/><br/>
 					Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/sim-only-vergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -40,7 +40,7 @@ class generalSim{
 					<script type="text/javascript">
 					jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=simonly&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=simonly&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -65,7 +65,7 @@ class generalSim{
 					function getProviders()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=simProviders&jsoncallback=?",
+							url: "//developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=simProviders&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -79,7 +79,7 @@ class generalSim{
 					function getPrograms()
 					{	 
 						jQuery.ajax({
-							url: "http://developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=simPrograms&jsoncallback=?",
+							url: "//developers.affiliateprogramma.eu/mobielvergelijker/generator/data.php?method=simPrograms&jsoncallback=?",
 							dataType: "jsonp",
 							async: true,
 							success: function(data){
@@ -156,12 +156,12 @@ class generalSim{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'ui_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/jquery.nouislider.min.js');
-			wp_register_script( 'general_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/general.js');
+			wp_register_script( 'ui_sim', '//developers.affiliateprogramma.eu/Simonlyvergelijker/jquery.nouislider.min.js');
+			wp_register_script( 'general_sim', '//developers.affiliateprogramma.eu/Simonlyvergelijker/general.js');
 			
 			// Register stylesheet files
-			wp_register_style('stylesheet1_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/style.css');
-			wp_register_style('stylesheet2_sim', 'http://developers.affiliateprogramma.eu/Simonlyvergelijker/nouislider.fox.css');
+			wp_register_style('stylesheet1_sim', '//developers.affiliateprogramma.eu/Simonlyvergelijker/style.css');
+			wp_register_style('stylesheet2_sim', '//developers.affiliateprogramma.eu/Simonlyvergelijker/nouislider.fox.css');
 	
 			// Add all files to head
 			wp_enqueue_script( 'general_sim' );

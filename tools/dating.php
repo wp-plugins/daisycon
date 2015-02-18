@@ -38,7 +38,7 @@ class generalDating{
 							
 							jQuery.ajax
 							({
-								url: "http://developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=dating&jsoncallback=?",
+								url: "//developers.affiliateprogramma.eu/wordpressplugin/json.php?method=insertMenuVergelijker&website='.base64_encode($_SERVER['SERVER_NAME']).'&mediaid='.$mediaid.'&item=dating&jsoncallback=?",
 								dataType: "jsonp",
 								cache: false,
 								success: function(html)
@@ -49,7 +49,7 @@ class generalDating{
 		';
 		
 		$output .= 	'	<div style="width:900px;">
-						<img src="http://www.daisycon.com/shared/daisyconwebsite/img/layout/blog/publish-tools_vakantievergelijker_paxz_100.png" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon Datingsitevergelijker</h1>
+						<img src="//www.daisycon.com/shared/daisyconwebsite/img/layout/blog/publish-tools_vakantievergelijker_paxz_100.png" alt="" title="" style="float:left;margin-right:20px;" /> <h1>Daisycon Datingsitevergelijker</h1>
 						Daisycon heeft exclusief voor haar publishers een gratis datingsitevergelijker ontwikkeld. De tool is eenvoudig te installeren en stelt de bezoekers van jouw website in staat een groot aanbod van dating websites te bekijken en vergelijken. 
 						<br/><br/>
 						Plak onderstaande shorttag in je blogpost of pagina en de vergelijker verschijnt direct op je website. <a href="http://vergelijkers.daisycon.com/datingsitevergelijker/" target="_blank">Klik hier om de demowebsite te bekijken</a>.
@@ -121,10 +121,10 @@ class generalDating{
 		else
 		{
 			// Register jQuery files
-			wp_register_script( 'dating', 'http://developers.affiliateprogramma.eu/datingsitevergelijker/vergelijker.js');
+			wp_register_script( 'dating', '//developers.affiliateprogramma.eu/datingsitevergelijker/vergelijker.js');
 			
 			// Register stylesheet files
-			wp_register_style('stylesheet_dating', 'http://developers.affiliateprogramma.eu/datingsitevergelijker/example.css');
+			wp_register_style('stylesheet_dating', '//developers.affiliateprogramma.eu/datingsitevergelijker/example.css');
 		
 			// Add all files to head
 			wp_enqueue_script( 'dating' );
