@@ -4,7 +4,7 @@ Plugin Name: Daisycon prijsvergelijkers
 Plugin URI: http://vergelijkers.daisycon.com
 Description: Promoot adverteeders van Daisycon eenvoudig en goed met de verschillende professionele prijsvergelijkers voor WordPress-publishers. Met deze plugin kun je eenvoudig en snel een vergelijkingssite maken. De plugin bevat op dit moment zes vergelijkers en zal regelmatig worden aangevuld met nieuwe tools, dus houd de updates in de gaten!
 Author: Daisycon
-Version: 2.2
+Version: 2.3
 Author URI: http://www.daisycon.com
 */
 
@@ -27,6 +27,7 @@ require_once('tools/dagaanbiedingen.php');
 require_once('tools/dating.php');
 require_once('tools/reis.php');
 require_once('tools/allesin1.php');
+require_once('tools/schoenen.php');
 
 // Activate files for tools
 $telecomPlugin = new generalCom;
@@ -41,6 +42,7 @@ $dailyofferPlugin = new generalDailyoffer;
 $datingPlugin = new generalDating;
 $reisPlugin = new generalReis;
 $allesineenPlugin = new generalAllesineen;
+$schoenenPlugin = new generalSchoenen;
 
 // Create menu
 function dmenu(){
@@ -57,9 +59,8 @@ function dmenu(){
 		add_submenu_page('daisycontools', 'Dating',  'Dating', 'manage_options', 'dating', array('generalDating', 'adminDating'));
 		add_submenu_page('daisycontools', 'Energie',  'Energie', 'manage_options', 'energy', array('generalEnergy', 'adminEnergy'));
 		add_submenu_page('daisycontools', 'Dagaanbiedingen',  'Dagaanbiedingen', 'manage_options', 'dagaanbiedingen', array('generalDailyoffer', 'adminDailyoffer'));
+		add_submenu_page('daisycontools', 'Schoenenzoeker',  'Schoenenzoeker', 'manage_options', 'schoenenzoeker', array('generalSchoenen', 'adminSchoenen'));
 }
-
-
 
 // Add Daisycon menu to Wordpress admin interface
 add_action('admin_menu', 'dmenu');

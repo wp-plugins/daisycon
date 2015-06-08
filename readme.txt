@@ -2,9 +2,9 @@
 Contributors: Daisycon
 Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Daisycon
 Requires at least: 3.4.2
-Tested up to: 4.1
+Tested up to: 4.2.2
 Donate link: 
-Stable tag: 2.2
+Stable tag: 2.3
 Author: Daisycon
 Author URI: http://www.daisycon.com
 License: Daisycon
@@ -86,6 +86,7 @@ De Daisycon Datingsitevergelijker stelt de bezoekers van jouw website in staat v
 
 [Bekijk hier een voorbeeld van de Datingsitevergelijker.](http://vergelijkers.daisycon.com/datingsitevergelijker/ "datingsitevergelijker")
 
+
 **Voordelen Daisycon prijsvergelijkers**
 
 Voordelen van de prijsvergelijkers van Daisycon:
@@ -149,6 +150,9 @@ De hoogte kan je zelf aanpassen door het getal bij "margin-top" te veranderen. W
 7. Vakantietool
 
 == Changelog ==
+
+= 2.3 = 
+* Schoenenzoeker menu item toegevoegd
 
 = 2.2 =
 * Alle tools zijn nu zowel http als https
